@@ -12,4 +12,6 @@ def put_todos(todos_arg, filepath=filep):
         file.writelines(todos_arg)
 
 
-print("this is the function")
+if __name__ == "__main__":
+    print("this is the function")
+    print(get_todo())
